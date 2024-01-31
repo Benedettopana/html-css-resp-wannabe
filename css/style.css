@@ -130,11 +130,31 @@ img {
 
 @media screen and (max-width: 768px){
     .container{
-    width: 100%;
+        width: 100%;
     }
     
 }
 
 @media screen and (max-width: 480px){
-    
+    .container{
+        padding: 50px;
+    }
+    .container .row{
+        flex-direction: column;
+    }
+
+    .row .col{
+        width: 100%;
+    }
+
+    .steps{
+        margin: 0;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+    }
+
+
 }
